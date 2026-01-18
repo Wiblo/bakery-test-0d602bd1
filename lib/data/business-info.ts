@@ -1,72 +1,70 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
-  tagline: "Quality chiropractic care in Your City",
+  name: "Golden Crust Bakery",
+  tagline: "Freshly baked goodness every day",
   logo: "/logo.png",
 
   // Contact information
-  phone: "(555) 123-4567",
-  phoneSecondary: "(555) 987-6543", // Optional second phone number
-  email: "contact@example.com",
+  phone: "+27 11 123 4567",
+  phoneSecondary: "+27 82 456 7890", // Optional second phone number
+  email: "hello@goldencrust.co.za",
 
   // Location
   address: {
-    street: "123 Main Street",
-    area: "", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "Springfield",
-    state: "CA",
-    zip: "12345",
-    country: "US",
+    street: "125 Main Road",
+    area: "Mondeor", // Optional (e.g., "Building Name" or "Suite 100")
+    city: "Johannesburg",
+    state: "Gauteng",
+    zip: "2091",
+    country: "ZA",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 40.7128,
-    longitude: -74.0060,
+    latitude: -26.2309,
+    longitude: 27.9747,
   },
 
   // Business hours
   hours: {
-    monday: "9:00am - 6:00pm",
-    tuesday: "9:00am - 6:00pm",
-    wednesday: "9:00am - 6:00pm",
-    thursday: "9:00am - 6:00pm",
-    friday: "9:00am - 5:00pm",
-    saturday: "10:00am - 2:00pm",
-    sunday: "Closed",
+    monday: "6:00am - 6:00pm",
+    tuesday: "6:00am - 6:00pm",
+    wednesday: "6:00am - 6:00pm",
+    thursday: "6:00am - 6:00pm",
+    friday: "6:00am - 6:00pm",
+    saturday: "6:00am - 4:00pm",
+    sunday: "7:00am - 2:00pm",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourpage",
-    whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
+    facebook: "https://facebook.com/goldencrust",
+    instagram: "https://instagram.com/goldencrustbakery",
+    whatsapp: "https://wa.me/27824567890", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://example.com",
-  description: "Dedicated to helping people achieve a pain-free life through non-invasive healthcare.",
+  url: "https://goldencrust.co.za",
+  description: "Artisan bakery in Johannesburg South serving fresh breads, pastries, and custom cakes baked daily with love and the finest ingredients.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
   // Customize based on your business type. Common combinations:
-  // - Chiropractor: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Physical Therapist: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Massage Spa: ['LocalBusiness', 'HealthAndBeautyBusiness', 'DaySpa']
-  // - General Wellness: ['LocalBusiness', 'HealthAndBeautyBusiness']
-  // - Acupuncture: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
+  // - Bakery: ['LocalBusiness', 'Bakery', 'FoodEstablishment']
+  // - Restaurant: ['LocalBusiness', 'Restaurant', 'FoodEstablishment']
+  // - Cafe: ['LocalBusiness', 'CafeOrCoffeeShop', 'FoodEstablishment']
+  schemaTypes: ['LocalBusiness', 'Bakery', 'FoodEstablishment'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://sticksandstoneswellnesshub.pencilmein.online/Booking",
+  bookingUrl: "https://wa.me/27824567890?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Golden Crust Bakery, Mondeor",
   },
 }
 

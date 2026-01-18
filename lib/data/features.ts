@@ -9,34 +9,34 @@ export interface FeatureBlock {
 
 /**
  * Features section content
- * Highlighting key features, benefits, or unique aspects of the practice
+ * Highlighting key features, benefits, or unique aspects of the bakery
  */
 export const featureBlocks: FeatureBlock[] = [
   {
     id: 'feature-1',
-    title: 'Expert Chiropractic Care',
+    title: 'Baked Fresh Daily',
     description:
-      'Our comprehensive approach combines advanced chiropractic techniques with personalized treatment plans designed to address your specific needs. We focus on long-term solutions rather than temporary relief, helping you achieve lasting wellness.',
-    image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional chiropractic treatment',
+      'Our doors open at 6am with fresh breads straight from the oven. We bake throughout the day to ensure you always get the freshest pastries, with croissants coming out warm at opening and again at midday. Nothing beats the aroma and taste of bread baked just hours ago.',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff',
+    imageAlt: 'Fresh artisan bread being scored before baking',
     imagePosition: 'right',
   },
   {
     id: 'feature-2',
-    title: 'Modern Treatment Techniques',
+    title: 'Traditional Methods, Modern Quality',
     description:
-      'We utilize the latest evidence-based chiropractic methods and state-of-the-art equipment to provide effective, gentle care. Our techniques are continuously updated to incorporate the most current research in chiropractic medicine.',
-    image: '/iastm-shoulder-treatment.jpeg',
-    imageAlt: 'Modern treatment techniques',
+      'We honor time-tested baking traditions while maintaining the highest standards of quality and food safety. Our sourdough cultures have been carefully maintained for years, our croissant lamination follows classical French techniques, and every recipe is refined to perfection using the best ingredients available.',
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a',
+    imageAlt: 'Baker folding croissant dough using traditional technique',
     imagePosition: 'left',
   },
   {
     id: 'feature-3',
-    title: 'Personalized Wellness Plans',
+    title: 'Custom Creations for Your Special Moments',
     description:
-      'Every patient receives a customized treatment plan tailored to their unique condition, lifestyle, and wellness goals. We take the time to understand your needs and create a roadmap to help you achieve optimal health.',
-    image: '/hip-adjustment-side-lying.jpeg',
-    imageAlt: 'Personalized wellness consultation',
+      'From birthday cakes to wedding centerpieces, we work closely with you to design custom cakes that reflect your vision and exceed your expectations. Our decorators combine artistry with craftsmanship to create show-stopping cakes that taste as incredible as they look. Book a consultation to discuss your dream cake.',
+    image: 'https://images.unsplash.com/photo-1535254973040-607b474cb50d',
+    imageAlt: 'Beautiful custom decorated celebration cake',
     imagePosition: 'right',
   },
 ]

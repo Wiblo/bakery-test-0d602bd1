@@ -10,52 +10,52 @@ export interface FaqItem {
  */
 export const faqs: FaqItem[] = [
   {
-    id: 'first-visit',
-    question: 'What should I expect on my first visit?',
+    id: 'opening-hours',
+    question: 'What are your opening hours?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "We're open Monday to Friday from 6:00am to 6:00pm, Saturday from 6:00am to 4:00pm, and Sunday from 7:00am to 2:00pm. Our first batch of fresh breads is ready at opening time, and we bake croissants twice daily – at opening and again at midday.",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'custom-cakes',
+    question: 'How far in advance should I order a custom cake?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      'For best results, we recommend ordering custom cakes at least 3-7 days in advance, depending on complexity. Wedding cakes and elaborate designs require 2-3 weeks notice. For simpler birthday cakes, 3-4 days is usually sufficient. Contact us to discuss your needs and we can advise on timing.',
   },
   {
-    id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    id: 'dietary-requirements',
+    question: 'Do you offer gluten-free or vegan options?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      'Yes! We offer gluten-free bread and selected pastries daily. For custom cakes, we can create gluten-free, vegan, and dairy-free options with advance notice. Please let us know your dietary requirements when ordering so we can ensure your treats are both delicious and safe for you to enjoy.',
   },
   {
-    id: 'sessions',
-    question: 'How many sessions will I need?',
+    id: 'ingredients',
+    question: 'What makes your products different?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      "We use premium ingredients including European butter, organic stone-ground flours, and natural sourdough starters. Everything is made from scratch daily using traditional methods – no mixes, no artificial preservatives. Our sourdough starter is over 8 years old, and our croissants undergo a 3-day lamination process for those signature flaky layers.",
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'wholesale',
+    question: 'Do you supply restaurants or cafes?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      'Yes, we work with select restaurants, cafes, and corporate clients for wholesale orders. We can provide daily bread deliveries, event catering, and custom corporate gifts. Contact us to discuss your requirements and we can create a customized supply arrangement.',
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'ordering',
+    question: 'How do I place an order?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      'For custom cakes or large orders, you can WhatsApp us at +27 82 456 7890, call +27 11 123 4567, or email hello@goldencrust.co.za. For regular items, simply visit us during opening hours – we always have fresh breads, pastries, and treats available. No pre-order needed for our daily selection.',
   },
   {
-    id: 'appointment',
-    question: 'How do I book an appointment?',
+    id: 'allergens',
+    question: 'Do you have allergen information?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      'Yes, we can provide detailed allergen information for all our products. Common allergens in our bakery include wheat, dairy, eggs, and nuts. Please ask our staff about specific items, especially if you have severe allergies. We take food safety seriously and can guide you to suitable options.',
   },
   {
-    id: 'what-to-wear',
-    question: 'What should I wear to my appointment?',
+    id: 'fresh-guarantee',
+    question: 'How long do your products stay fresh?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      'Our breads are best enjoyed within 2-3 days and can be frozen for up to 3 months. Pastries are best eaten the same day for optimal freshness. Custom cakes can be refrigerated for 3-4 days. We recommend storing bread in a paper bag at room temperature and pastries in an airtight container.',
   },
 ]
 

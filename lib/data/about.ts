@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Our Practice',
+  title: 'About Golden Crust Bakery',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+    "Since 2015, Golden Crust Bakery has been serving Johannesburg South with artisan breads, French pastries, and custom cakes baked fresh daily. Our passion for traditional baking methods and commitment to quality ingredients has made us a beloved neighborhood destination for those who appreciate the art of exceptional baking.",
+  image: 'https://images.unsplash.com/photo-1556910110-a5a63dfd393c',
+  imageAlt: 'Baker kneading dough at Golden Crust Bakery',
 }
 
 /**
@@ -29,12 +29,12 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'Our Story',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    'Founded in 2015 in the heart of Mondeor, Golden Crust Bakery began with a simple mission: to bring authentic artisan baking to Johannesburg South. Our head baker, trained in traditional French baking techniques, combines old-world craftsmanship with a passion for innovation.',
+    'Every morning at 3am, our team arrives to begin the day\'s work. From hand-shaping sourdough loaves to laminating croissant dough, we take pride in every step of the baking process. We source the finest ingredients – premium European butter, organic flours, and seasonal local produce – because we believe great baking starts with great ingredients.',
+    'What sets us apart is our commitment to doing things the right way, not the easy way. Our sourdough starter has been nurtured for over 8 years, our croissants require a 3-day process, and our custom cakes are crafted with the same attention to detail whether they\'re for a small birthday or a grand wedding. We\'re not just a bakery – we\'re your neighborhood baking partner, here to make every day and every celebration a little more delicious.',
   ],
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  image: 'https://images.unsplash.com/photo-1517433670267-08bbd4be890f',
+  imageAlt: 'Inside Golden Crust Bakery with fresh baked goods',
 }

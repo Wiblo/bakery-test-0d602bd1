@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
+        subtitle={businessInfo.tagline}
+        title="Artisan Bakery in Johannesburg South"
+        backgroundImage="https://images.unsplash.com/photo-1517433670267-08bbd4be890f"
+        backgroundImageAlt="Fresh artisan breads and pastries from Golden Crust Bakery"
+        ctaText="Order Now"
         ctaUrl={businessInfo.bookingUrl}
       />
       <FeaturedServices />
